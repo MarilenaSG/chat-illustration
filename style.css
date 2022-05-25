@@ -1,0 +1,47 @@
+:root {
+    /* Text colors */
+
+--pale-violet: hsl(276, 100%, 81%);
+--moderate-violet: hsl(276, 55%, 52%);
+--desaturate-pale: hsl(271, 15%, 43%);
+--grayish-blue: hsl(206, 6%, 79%);
+--desaturate-dark: hsl(271, 36%, 24%);
+--dark-greyish: hsl(270, 7%, 64%);
+
+/*Background gradientr*/
+
+--magenta: #e942ff;
+--violet: #8838ff;
+
+/*Secondary*/
+
+--white: hsl(0, 0%, 100%);
+--grayish-violet: hsl(270, 20%, 96%);
+--very-dark-violet: hsl(271, 36%, 24%);
+--light-magenta: hsl(289, 100%, 72%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body main {
+    background-color: var(--grayish-violet);
+    font-family: 'Rubik', sans-serif;
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+
+.fondo {
+    width: 50%;
+    height: 50%;
+    border-radius: 0 0 25% 0;
+    background: rgb(233,66,255);
+background: linear-gradient(180deg, rgba(233,66,255,1) 0%, rgba(136,56,255,1) 100%);
+
+}
+
