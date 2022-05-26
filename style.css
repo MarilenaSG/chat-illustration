@@ -36,20 +36,21 @@ body main {
     font-family: 'Rubik', sans-serif;
     width: 100vw;
     height: 100%;
-    display: flow-root;
+    display: flex;
+    flex-direction: column;
 }
 
 .fondo {
     width: 187px;
     height: 500px;
-    background: linear-gradient(180deg, rgba(233,66,255,1) 0%, rgba(162,59,255,1) 12%, rgba(136,56,255,1) 100%);
+    background: linear-gradient(220deg, rgba(233,66,255,1) 0%, rgba(162,59,255,1) 42%, rgba(136,56,255,1) 100%);
     border-radius: 0 0 290px 0;
     z-index: 1;
     position: fixed;
 }
 
 .movil--container {
-    width: 260px;
+    width: 288px;
     height: auto;
     padding: 0 auto;
     position: relative;
@@ -216,7 +217,7 @@ background: linear-gradient(94deg, rgba(233,66,255,1) 0%, rgba(162,59,255,1) 39%
 }
 
 .movil--pics img {
-    width: 40px;
+    width: 50px;
     margin: 5px;
     border-radius: 10px;
 
@@ -226,7 +227,7 @@ background: linear-gradient(94deg, rgba(233,66,255,1) 0%, rgba(162,59,255,1) 39%
     width: 50%;
     height: auto;
     padding: 10px;
-    margin: 5px 0 0 110px;
+    margin: 5px 0 0 130px;
     background-color: var(--white);
     color: var(--dark-greyish);
     border-radius: 15px 15px 0 15px;
